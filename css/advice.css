@@ -1,0 +1,256 @@
+/* 头部 */
+#page-header{
+    background: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+#page-header .container  .header-logo{
+    margin-top: 35px;
+}
+#page-header .container nav{
+    margin-top: 50px;
+}
+#page-header .container nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #706868;
+    margin: 0 15px;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+/* 鼠标经过特效 */
+#page-header .container nav a:hover{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}
+#page-header .container nav .active{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}
+
+/* banner */
+#banner{
+    background: rgb(42, 160, 230);
+}
+/* 面包屑 */
+#bread-curmb .container{
+    padding-top: 30px;
+    padding-bottom: 25px;
+   
+}
+#bread-curmb .container span {
+    float: left;
+    font: 14px;
+    color: #6f7071;
+}
+/* 内容标题 */
+#title{
+    clear: both;
+}
+#title .container-fluid {
+    padding-top: 40px;
+}
+#title .container-fluid h1{
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #5b5b5b;
+}
+#title .container-fluid p{
+    font-size: 18px;
+    color: #999999;
+    padding-bottom: 9px;
+}
+/* 卡片 */
+
+#advice-content .container .img {
+    padding: 29px 0 10px 0;
+    margin-left: 35px;
+    max-width: 470px;
+}
+#advice-content .container .test{
+    padding: 33px 0 46px 0;
+    margin-left: 35px;
+}
+#advice-content .container .test-2{
+    margin-left: 70px;
+}
+#advice-content .container .test h2{
+    font-size: 30px;
+    color: #908f8f;
+    max-width: 467px;
+}
+#advice-content .container .test span{
+    font-size: 18px;
+    color: #424141;
+    max-width: 467px;
+}
+#advice-content .container .test h3{
+    font-size: 18px;
+    color: #232323;
+    max-width: 467px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#advice-content .container .test  p{
+    font-size: 14px;
+    color: #666666;
+    max-width: 467px;
+    line-height: 25px;
+    margin-bottom: 37px;
+}
+#advice-content .container .test a{
+    padding: 12px 41px 10px 41px;
+    font-size: 18px;
+  
+    margin-top: 20px;
+    border: 1px solid  #949494;
+    color: #666666;
+    background: #ffffff;
+}
+
+#advice-content .container .test a:hover{
+    background-color: #f5de5a;
+    color: #ffffff;
+    border: 0;
+}
+#advice-content .container .content-footer{
+    margin: 50px 0 76px 0;
+}
+#advice-content .container .content-footer a{
+    font-size: 24px;
+    margin: 0 24px;
+    color: #707070;
+}
+#advice-content .container .content-footer .right{
+    border: 2px solid  #707070;
+    border-radius: 100%;
+    padding: 0 8px;
+    margin: 0 20px;
+
+}
+#advice-content .container .content-footer .left{
+    border: 2px solid  #707070;
+    border-radius: 100%;
+    padding: 0 8px;
+    margin: 0 20px;
+
+}
+
+
+
+
+
+
+/* 底部内容 */
+#page-footer{
+    background: rgb(51, 51, 51);
+}
+#page-footer .container{
+    height: 336px;
+}
+#page-footer .left{
+    position: relative;
+    height: 336px;
+}
+#page-footer .left img{
+    position: relative;
+    top: -12px;
+    left: -14px;
+}
+#page-footer .right{
+    padding-left: 50px;
+}
+#page-footer .right nav{
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+#page-footer .right nav a{
+    color: #bbbbbb;
+    font-size: 16px;
+    margin: 0 25px;
+}
+#page-footer .right nav span{
+    color: #bbbbbb;
+}
+#page-footer .right div img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#page-footer .right .right-1 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right-2 {
+    margin-top: 25px;
+    
+}
+#page-footer .right .right-2 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right .right-3 {
+
+    width: 435px;
+    background: rgb(42, 42, 42);
+    border-radius: 25px;
+    margin-top: 95px;
+    margin-left: 15px;
+    
+}
+#page-footer .right .right-3 p{
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 9px 10px;
+    color: #999999;
+}
+
+
+
+/* 资讯详情页面 */
+#detail-content .container h1{
+    font-size: 24px;
+    color: #232323;
+    margin-top: 29px;
+}
+#detail-content .container .p1{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+#detail-content .container .p2{
+    max-width: 794px;
+    font-size: 14px;
+    color: #999999;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#detail-content .container .p3{
+    max-width: 794px;
+    font-size: 14px;
+    color: #999999;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#detail-content .container .content-footer{
+    max-width: 794px;
+    margin: 0 auto;
+}
+#detail-content .container .content-footer .left{
+    float: left;
+    font-size: 18px;
+    padding: 14px 25px 18px 25px;
+    background-color: #f6ce2a;
+    color: #ffffff;
+    margin-bottom: 47px;
+    margin-top: 15px;
+}
+#detail-content .container .content-footer .right{
+    float: right;
+}
+#detail-content .container .content-footer .right a{
+    font-size: 18px;
+    color: #333333;
+}

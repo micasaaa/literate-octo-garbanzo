@@ -1,0 +1,197 @@
+/* 头部 */
+#page-header{
+    background: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+#page-header .container  .header-logo{
+    margin-top: 35px;
+}
+#page-header .container nav{
+    margin-top: 50px;
+}
+#page-header .container nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #706868;
+    margin: 0 15px;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+/* 鼠标经过特效 */
+#page-header .container nav a:hover{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}
+#page-header .container nav .active{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}   
+/* 轮播图 */
+#banner {
+    background: rgb(246, 206, 42);
+    padding-bottom: 10px;
+}
+/* 面包屑 */
+#bread-curmb .container{
+    padding-top: 30px;
+    padding-bottom: 25px;
+   
+}
+#bread-curmb .container p {
+    float: left;
+    font: 14px;
+    color: #6f7071;
+}
+#bread-curmb .container p span{
+    color: #ffce05;
+
+}
+/* 内容标题 */
+#title{
+    clear: both;
+}
+#title .container-fluid {
+    padding-top: 40px;
+}
+#title .container-fluid h1{
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #5b5b5b;
+}
+#title .container-fluid p{
+    font-size: 18px;
+    color: #999999;
+    padding-bottom: 14px;
+}
+/* 案例展示 */
+#content-card .container{
+    padding-bottom: 80px;
+}
+#content-card .container .img{
+    width: 236px;
+    height: 129px;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.8s;
+}
+
+#content-card .container .img .img_container{
+    position: absolute;
+    width: 236.2px;
+    height: 128.8px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.64);
+    display: none;
+    transition: all .4s;
+}
+#content-card .container .img .img_container h3{
+    font-size: 20px;
+    color: #fefefe;
+    margin-top: 33px;
+}
+#content-card .container .img .img_container .h3{
+    opacity: 0.8;
+    color: #ffffff;
+    margin-top: 10px;
+}
+#content-card .container .img img:hover{
+    z-index: 10;
+}
+#content-card .container .card-1{
+    padding-bottom: 50px;
+}
+#content-card .container .center .card-2 {
+    margin: 0 auto;
+    padding-bottom: 17px;
+    margin-bottom: 53px;
+    box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.2);
+    max-width: 318px;
+}
+#content-card .container .card-2 .card-test h3{
+    font-size: 27px;
+    color: #5b5b5b;
+    margin-top: 21px;
+}
+#content-card .container .card-2 .card-test hr{
+    max-width: 50px;
+    height: 3px;
+    background-color: #f6ce2a;
+}
+#content-card .container .card-2 .card-test p{
+    font-size: 15px;
+    color: #626262;
+}
+#content-card .container .case-footer{
+    text-align: center;
+    margin-top: 30px;
+}
+#content-card .container .case-footer a{
+    padding: 18px 16px 16px 16px;
+    color: #fff7d4;
+    background-color: #f6ce2a;
+}
+/* 底部内容 */
+#page-footer{
+    background: rgb(51, 51, 51);
+}
+#page-footer .container{
+    height: 336px;
+}
+#page-footer .left{
+    position: relative;
+    height: 336px;
+}
+#page-footer .left img{
+    position: relative;
+    top: -12px;
+    left: -14px;
+}
+#page-footer .right{
+    padding-left: 50px;
+}
+#page-footer .right nav{
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+#page-footer .right nav a{
+    color: #bbbbbb;
+    font-size: 16px;
+    margin: 0 25px;
+}
+#page-footer .right nav span{
+    color: #bbbbbb;
+}
+#page-footer .right div img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#page-footer .right .right-1 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right-2 {
+    margin-top: 25px;
+    
+}
+#page-footer .right .right-2 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right .right-3 {
+
+    width: 435px;
+    background: rgb(42, 42, 42);
+    border-radius: 25px;
+    margin-top: 95px;
+    margin-left: 15px;
+    
+}
+#page-footer .right .right-3 p{
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 9px 10px;
+    color: #999999;
+}

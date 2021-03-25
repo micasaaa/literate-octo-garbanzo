@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: "Microsoft Yahei";
+}
+a{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;   
+}
+.clearFix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.img-fadIn{
+    max-width: 100%;
+}
+.container-fluid{
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.none{
+    display: none;
+}

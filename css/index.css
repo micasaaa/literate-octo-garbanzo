@@ -1,0 +1,240 @@
+
+#page-header{
+    background: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+#page-header .container  .header-logo{
+    margin-top: 35px;
+}
+#page-header .container nav{
+    margin-top: 50px;
+}
+#page-header .container nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #706868;
+    margin: 0 15px;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+/* 鼠标经过特效 */
+#page-header .container nav a:hover{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}
+#page-header .container nav .active{
+    border-bottom: 2px solid rgb(246, 206, 42);
+}
+/* 轮播图 */
+#banner {
+    background: rgb(246, 206, 42);
+    padding-bottom: 10px;
+}
+/* 顶级服务 */
+#top-service{
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+#top-service .container-fluid{
+    text-align: center;
+}
+#top-service .container-fluid h2{
+    font-size: 30px;
+    color: #5b5b5b;
+    margin: 0;
+    padding-top: 43px;
+    padding-bottom: 8px;
+}
+#top-service .container-fluid p{
+    font-size: 18px;
+    color: #999999;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+#top-service .container{
+    text-align: center;
+}
+
+#top-service .container  img{
+    margin-top: 50px;
+}
+#top-service .container .card{
+    margin-bottom: 20px;
+}
+#top-service .container  h5{
+    font-size: 18px;
+    color: #636363;
+    margin-top: 5px;
+}
+#top-service .container  p{
+    margin: 0 auto;
+    width: 232px;
+    font-size: 12px;
+    color: #636363;
+    margin-top: 10px;
+}
+/* 案例 */
+#case{
+    color: rgb(255, 255, 255);
+    padding-bottom: 125px;
+}
+#case .container-fluid{
+    text-align: center;
+}
+#case .container-fluid h2{
+    font-size: 30px;
+    color: #5b5b5b;
+    margin: 0;
+    padding-bottom: 8px;
+}
+#case .container-fluid p{
+    font-size: 18px;
+    color: #999999;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+#case .container{
+    padding-top: 20px;
+    text-align: center;
+}
+#case .container .card{
+    margin-top: 20px;
+}
+#case .container .case-footer{
+    margin: 0 auto;
+    clear: left;
+    padding-top: 60px;
+    text-align: center;
+}
+#case .container .case-footer a{
+    margin-top: 44px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 17px;
+    font-size: 18px;
+    background: rgb(246, 206, 42);
+}
+/* 发展历史 */
+#history{
+    color: rgb(255, 255, 255);
+    padding-bottom: 65px;
+    
+}
+#history .container-fluid{
+    text-align: center;
+}
+#history .container-fluid h2{
+    font-size: 30px;
+    color: #5b5b5b;
+    margin: 0;
+    padding-bottom: 8px;
+}
+#history .container-fluid p{
+    font-size: 18px;
+    color: #999999;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+#history .container {
+    margin-top: 15px;
+}
+#history .container .card{
+    text-align: center;
+    margin-top: 10px;
+}
+#history .container .active hr{
+    background: rgb(246, 206, 42);
+    width: 310px;
+}
+#history .container .card hr{
+    width: 310px;
+}
+#history .container .card h5{
+    width: 310px;
+    font-size: 18px;
+    color: #5b5b5b;
+    margin: 0 auto;
+}
+#history .container .card p{
+    width: 310px;
+    font-size: 12px;
+    color: #5b5b5b;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+#history .container .button{
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+#history .container .button a{
+    margin-top: 44px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 17px;
+    font-size: 18px;
+    background: rgb(246, 206, 42);
+}
+/* 底部内容 */
+#page-footer{
+    background: rgb(51, 51, 51);
+}
+#page-footer .container{
+    height: 336px;
+}
+#page-footer .left{
+    position: relative;
+}
+#page-footer .left img{
+    position: relative;
+    top: -12px;
+    left: -14px;
+}
+#page-footer .right{
+    padding-left: 50px;
+}
+#page-footer .right nav{
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+#page-footer .right nav a{
+    color: #bbbbbb;
+    font-size: 16px;
+    margin: 0 25px;
+}
+#page-footer .right nav span{
+    color: #bbbbbb;
+}
+#page-footer .right div img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#page-footer .right .right-1 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right-2 {
+    margin-top: 25px;
+    
+}
+#page-footer .right .right-2 p{
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+#page-footer .right .right-3 {
+
+    width: 435px;
+    background: rgb(42, 42, 42);
+    border-radius: 25px;
+    margin-top: 95px;
+    margin-left: 15px;
+    
+}
+#page-footer .right .right-3 p{
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 9px 10px;
+    color: #999999;
+}

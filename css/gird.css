@@ -1,0 +1,547 @@
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl
+ {
+  float: left;
+  position: relative;
+  width: 100%;
+ 
+}
+.row::after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+/* 响应式代码 */
+@media (max-width: 576px)  {
+    /* 手机设备 */
+    .container{
+      width: 375px;
+      margin: 0 auto;
+    }
+
+    .col-1 {
+      max-width: 8.333333%;
+    }
+    
+    .col-2 {
+      max-width: 16.666667%;
+    }
+    
+    .col-3 {
+      max-width: 25%;
+    }
+    
+    .col-4 {
+      max-width: 33.333333%;
+    }
+    
+    .col-5 {
+      max-width: 41.666667%;
+    }
+    
+    .col-6 {
+      max-width: 50%;
+    }
+    
+    .col-7 {
+      max-width: 58.333333%;
+    }
+    
+    .col-8 {
+      max-width: 66.666667%;
+    }
+    
+    .col-9 {
+      max-width: 75%;
+    }
+    
+    .col-10 {
+      max-width: 83.333333%;
+    }
+    
+    .col-11 {
+      max-width: 91.666667%;
+    }
+    
+    .col-12 {
+      max-width: 100%;
+    }
+    /* 头部 */
+    #page-header .container nav a{
+      margin: 0 auto;
+    }
+    #page-header .container nav {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    #page-header .container nav a{
+      text-decoration: none;
+      font-size: 16px;
+      color: #706868;
+      width: 100%;
+      padding-bottom: 10px;
+      display: inline-block;
+  }
+  #page-header .container nav a:hover{
+    background-color: #ffffff;
+  }
+  #page-header .container nav .active{
+    border: none;
+  }
+    #page-header .container .none{
+      display: block;
+    }
+    #page-header .container .none a{
+      float: right;
+      margin-top: 40px;
+      width: 50px;
+      height: 50px;
+    }
+    #page-header .container .none a::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    
+    #page-header .container .nav-list:not(.show){
+      display: none;
+    }
+      /* 底部代码 */
+    #page-footer .right div img{
+      float: left;
+      margin-top: 0;
+      margin-right: 10px;
+    }
+    #page-footer .right nav a{
+      color: #bbbbbb;
+      font-size: 16px;
+      margin: 0 8px;
+    }
+    #page-footer .container .left{
+      display: none;
+    }
+    #page-footer .right {
+      padding: 0;
+    }
+    #page-footer .right .right-1 p{
+      float: left;
+      font-size: 8px;
+      color: #999999;
+    }
+    #page-footer .right-2 {
+      margin-top: 25px;
+        
+    }
+    #page-footer .right .right-2 p{
+        float: left;
+        font-size: 8px;
+        color: #999999;
+        width: 302px;
+    }
+    #page-footer .right .right-3 {
+
+      width: 300px;
+      background: rgb(42, 42, 42);
+      border-radius: 25px;
+      margin-top: 90px;
+      
+  }
+  #page-footer .right .right-3 p{
+      font-size: 6px;
+      margin: 0 auto;
+      padding: 9px 10px;
+      color: #999999;
+  }
+  .center {
+    text-align: center;
+  }
+  /* 解决服务代码 */
+  #nav .container nav .left{
+    padding-left: 0;
+  }
+  #nav .container nav a {
+    margin: 0 5px;
+    font-size: 5px;
+
+  }
+  #nav .container nav a span{
+    display: none;
+  }
+  #advice-content .container .col-xl-12{
+    border-bottom: 1px solid #999999;
+  }
+  #advice-content .container .test{
+    margin-left: 0;
+  }
+  #advice-content .container .content-footer {
+    border: none;
+    text-align: center;
+  }
+  #advice-content .container .content-footer a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #707070;
+}
+#advice-content .container .test-2 {
+  margin-left: 0;
+}
+}
+/* 576-767 */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* 手机设备 */
+    .container{
+        width: 576px;
+        margin: 0 auto;
+    }
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    .col-sm-1 {
+        max-width: 8.333333%;
+      }
+      .col-sm-2 {
+        max-width: 16.666667%;
+      }
+      .col-sm-3 {
+        max-width: 25%;
+      }
+      .col-sm-4 {
+        max-width: 33.333333%;
+      }
+      .col-sm-5 {
+        max-width: 41.666667%;
+      }
+      .col-sm-6 {
+        max-width: 50%;
+      }
+      .col-sm-7 {
+        max-width: 58.333333%;
+      }
+      .col-sm-8 {
+        max-width: 66.666667%;
+      }
+      .col-sm-9 {
+        max-width: 75%;
+      }
+      .col-sm-10 {
+        max-width: 83.333333%;
+      }
+      .col-sm-11 {
+        max-width: 91.666667%;
+      }
+      .col-sm-12 {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .card-none{
+        display: none;
+      }
+        /* 头部 */
+      #page-header .container nav a{
+      margin: 0 2px;
+    }
+      #page-header .container nav .first{
+        margin-left: 20px;
+      }
+      /* 底部代码 */
+      #page-footer .container .left{
+        display: none;
+      }
+      #page-footer .right .right-1{
+        margin: 0 auto;
+      text-align: center;
+      }
+      #page-footer .right .right-1 p{
+        float: left;
+        font-size: 12px;
+        color: #999999;
+    }
+    #page-footer .right-2 {
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 25px;
+    }
+    #page-footer .right .right-2 p{
+        float: left;
+        font-size: 12px;
+        color: #999999;
+    }
+    #page-footer .right .right-3 {
+      width: 435px;
+      background: rgb(42, 42, 42);
+      border-radius: 25px;
+      margin-top: 65px;
+      margin-left: 15px;
+  }
+  #page-footer .right .right-3 p{
+      font-size: 8px;
+      margin: 0 auto;
+      padding: 9px 10px;
+      color: #999999;
+  }
+  /* 解决服务代码 */
+  #nav .container nav .left{
+    padding-left: 0;
+  }
+  #nav .container nav a {
+    margin: 0 14px;
+  }
+  #advice-content .container .test{
+    float: right;
+  }
+  #advice-content .container .col-xl-12{
+    border-bottom: 1px solid #999999;
+  }
+
+}
+/* 平板电脑 */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* 平板设备 */
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    .col-md-1 {
+        max-width: 8.333333%;
+      }
+      .col-md-2 {
+        max-width: 16.666667%;
+      }
+      .col-md-3 {
+        max-width: 25%;
+      }
+      .col-md-4 {
+        max-width: 33.333333%;
+      }
+      .col-md-5 {
+        max-width: 41.666667%;
+      }
+      .col-md-6 {
+        max-width: 50%;
+      }
+      .col-md-7 {
+        max-width: 58.333333%;
+      }
+      .col-md-8 {
+        max-width: 66.666667%;
+      }
+      .col-md-9 {
+        max-width: 75%;
+      }
+      .col-md-10 {
+        max-width: 83.333333%;
+      }
+      .col-md-11 {
+        max-width: 91.666667%;
+      }
+      .col-md-12 {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .card-none{
+        display: none;
+      }
+      /* 首页代码 */
+      /* 头部 */
+      #page-header .container nav a{
+        margin: 0 10px;
+      }
+      /* 底部代码 */
+      #page-footer .container .left{
+        display: none;
+      }
+     
+      #page-footer .right .right-2 p {
+        width: 550px;
+      }
+    /* 解决服务代码 */
+    #nav .container nav .left{
+      padding-left: 0;
+    }
+    #nav .container nav a {
+      margin: 0 24px;
+    }
+    #nav .container nav .left{
+      padding-left: 15px;
+    }
+            /* 咨询页面代码 */
+    #advice-content .container .test{
+      padding: 33px 0 46px 0;
+      margin-left: 0;
+      width: 48%;
+      padding-left: 10px;  
+      float: left;
+    }
+    #advice-content .container .img {
+      padding: 29px 0 10px 0;
+      margin-left: 0;
+      max-width: 470px;
+      float: left;
+      width: 50%;
+    }
+
+    #advice-content .container .test-2{
+          margin-left: 0;
+    }
+
+}
+
+/* 笔记本电脑 */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* 笔记本电脑 */
+    .container{
+        width: 970px;
+        margin: 0 auto;
+    }
+    .col-lg-1 {
+      max-width: 8.333333%;
+    }
+    .col-lg-2 {
+      max-width: 16.666667%;
+    }
+    .col-lg-3 {
+      max-width: 25%;
+    }
+    .col-lg-4 {
+      max-width: 33.333333%;
+    }
+    .col-lg-5 {
+      max-width: 41.666667%;
+    }
+    .col-lg-6 {
+      max-width: 50%;
+    }
+    .col-lg-7 {
+      max-width: 58.333333%;
+    }
+    .col-lg-8 {
+      max-width: 66.666667%;
+    }
+    .col-lg-9 {
+      max-width: 75%;
+    }
+    .col-lg-10 {
+      max-width: 83.333333%;
+    }
+    .col-lg-11 {
+      max-width: 91.666667%;
+    }
+    .col-lg-12 {
+      max-width: 100%;
+    }
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+
+    
+    /* 首页代码 */
+    /* 头部 */
+    #page-header .container nav a{
+      margin: 0 15px;
+    }
+    /* 底部代码 */
+    #page-footer .container{
+      height: 348px;
+    }
+    
+    /* 解决服务代码 */
+    #nav .container nav .left{
+      padding-left: 15px;
+    }
+            /* 咨询页面代码 */
+    #advice-content .container .img {
+          padding: 29px 0 10px 0;
+          margin-left: 10px;
+          max-width: 470px;
+          float: left;
+    }
+    #advice-content .container .test{
+          padding: 33px 0 46px 0;
+          margin-left: 15px;
+          float: left;
+    }
+    #advice-content .container .test-2{
+          margin-left: 20px;
+    }
+}
+
+/* 台式电脑 */
+@media (min-width: 1200px){
+    /* 台式电脑 */
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    .col-xl-1 {
+        max-width: 8.333333%;
+      }
+      .col-xl-2 {
+        max-width: 16.666667%;
+      }
+      .col-xl-3 {
+        max-width: 25%;
+      }
+      .col-xl-4 {
+        max-width: 33.333333%;
+      }
+      .col-xl-5 {
+        max-width: 41.666667%;
+      }
+      .col-xl-6 {
+        max-width: 50%;
+      }
+      .col-xl-7 {
+        max-width: 58.333333%;
+      }
+      .col-xl-8 {
+        max-width: 66.666667%;
+      }
+      .col-xl-9 {
+        max-width: 75%;
+      }
+      .col-xl-10 {
+        max-width: 83.333333%;
+      }
+      .col-xl-11 {
+        max-width: 91.666667%;
+      }
+      .col-xl-12 {
+        max-width: 100%;
+      }
+
+        /* 底部代码 */
+        #page-footer .container{
+          height: 348px;
+        }  
+                    /* 咨询页面代码 */
+    #advice-content .container .img {
+      float: left;
+}
+#advice-content .container .test{
+      float: left;
+}
+
+}
