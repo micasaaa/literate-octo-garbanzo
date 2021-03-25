@@ -19,6 +19,10 @@ p,h1,h2,h3,h4,h5{
 .img-fadIn{
     max-width: 100%;
 }
+#page-content .container .row{
+    height: 450px;
+    overflow: hidden;
+}
 .container-fluid{
     width: 100%;
 }
