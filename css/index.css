@@ -29,6 +29,68 @@
     background: rgb(246, 206, 42);
     padding-bottom: 10px;
 }
+#banner .slide {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+    /* color: #fff; */
+    overflow: hidden;
+}
+#banner .slide ul {
+    position: absolute;
+    height: 450px;
+    width: calc(1000px * 3);
+    transition: all .5s;
+}
+#banner .container li{
+    float: left;
+    width: 1000px;
+    height: 450px;
+    background-image: url(../image/banner_03_06.gif);
+}
+#banner .slide label{
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    Line-height: 20px;
+    coLor: #fff;
+    background-coLor: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .3s;
+}
+#banner .slide label[for="button1"] {
+    Left: 45%;
+}
+#banner .slide label[for="button2"] {
+    left: 50%;
+}
+#banner .slide label[for="button3"] {
+    left: 55%;
+}
+#banner #button1:checked~ul {
+    margin-Left: 0;
+}
+#banner #button2:checked~ul {
+    margin-Left: -1000px;
+}
+#banner #button3:checked~ul {
+    margin-Left: -2000px;
+}
+#banner #button1:checked~label[for="button1"] {
+    background: rgb(255, 80, 0);
+}
+#banner #button2:checked~label[for="button2"] {
+    background: rgb(255, 80, 0);
+}
+#banner #button3:checked~label[for="button3"] {
+    background: rgb(255, 80, 0);
+}
 /* 顶级服务 */
 #top-service{
     color: rgb(255, 255, 255);
