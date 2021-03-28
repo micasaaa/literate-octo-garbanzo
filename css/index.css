@@ -13,7 +13,7 @@
     text-decoration: none;
     font-size: 16px;
     color: #706868;
-    margin: 0 15px;
+    margin: 0px 15px;
     padding: 0 5px;
     padding-bottom: 10px;
 }
@@ -38,18 +38,55 @@
     /* color: #fff; */
     overflow: hidden;
 }
+@media screen and (max-width:1000px){
+    #banner{
+        height: 450px;
+    }
+    #banner .slide{
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        height: -100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    #banner .slide ul li{
+        display:hidden;
+    }
+    #banner .slide ul img{
+        width: 40%;
+    }
+    #page-header .container nav a{
+        margin: 0 5px;
+        padding: 0;
+    }
+}
+@media screen and (max-width:770px){
+    #banner{
+        height: 330px;
+    }
+}
+@media screen and (max-width:580px){
+    #banner{
+        height: 220px;
+    }
+}
+
 #banner .slide ul {
     position: absolute;
-    height: 450px;
-    width: calc(1000px * 3);
+    /* height: 450px; */
+    /* width: calc(1000px * 3); */
+    width: 300%;
     transition: all .5s;
 }
 #banner .container li{
     float: left;
-    width: 1000px;
+    /* width: 1000px; */
+    width: 100%;
     height: 450px;
     background-image: url(../image/banner_03_06.gif);
 }
+
 #banner .slide label{
     position: absolute;
     z-index: 100;
@@ -91,6 +128,7 @@
 #banner #button3:checked~label[for="button3"] {
     background: rgb(255, 80, 0);
 }
+
 /* 顶级服务 */
 #top-service{
     color: rgb(255, 255, 255);
